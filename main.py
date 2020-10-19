@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request
 import mysql.connector
 mydb = mysql.connector.connect(
-  host="calculator.c1f9mdmc8xrk.us-east-2.rds.amazonaws.com",
+  host="calculator.xxxxxxxxxxx.us-east-2.rds.amazonaws.com",
   user="calculator",
-  password="calculator",
+  password="password",
   database = "calculator"
   )
 app = Flask(__name__)
